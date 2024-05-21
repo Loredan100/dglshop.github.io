@@ -1,0 +1,119 @@
+/* Reset and Basic Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #afaeae;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #242424;
+  color: white;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.navbar h1 {
+  font-family: "Permanent Marker", cursive;
+}
+
+.categories {
+  display: flex;
+}
+
+.categories h3 {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* Main Content */
+.gruns,
+.expedia {
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 1200px;
+}
+.gruns {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  height: 570px;
+  margin: 10px;
+  width: 610px;
+}
+.gruns img,
+.expedia img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.description {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  width: 600px;
+}
+
+.grunsbtn,
+.expediabtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 45px;
+  float: right;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  background-color: #242424;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: ease-in-out 0.2s;
+}
+
+.grunsbtn:hover,
+.expediabtn:hover {
+  background-color: #4d4c4c;
+}
+
+/* Footer */
+.footer {
+  background-color: #242424;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerdes,
+.contact {
+  opacity: 0.6;
+}
+
+.contact {
+  margin-bottom: 10px;
+}
+
+.shop {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 10px;
+}
+
+.tablet {
+  height: 340px;
+}

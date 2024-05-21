@@ -1,0 +1,97 @@
+/* Reset and Basic Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #afaeae;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #242424;
+  color: white;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.navbar h1 {
+  font-family: "Permanent Marker", cursive;
+}
+
+.categories {
+  display: flex;
+}
+
+.categories h3 {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* Main Content */
+.gruns,
+.expedia {
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 1200px;
+}
+
+.gruns img,
+.expedia img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.description {
+  margin-left: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.grunsbtn,
+.expediabtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 150px;
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  background-color: #2cb67d;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.grunsbtn:hover,
+.expediabtn:hover {
+  background-color: #249b67;
+}
+
+/* Footer */
+.footer {
+  background-color: #242424;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerdes,
+.contact {
+  opacity: 0.6;
+}
+
+.contact {
+  margin-bottom: 10px;
+}
