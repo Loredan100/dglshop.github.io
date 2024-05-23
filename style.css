@@ -95,3 +95,8 @@ body {
 .contact {
   margin-bottom: 10px;
 }
+
+.tablet {
+  height: 200px;
+  width: 200px;
+}

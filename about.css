@@ -7,7 +7,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #afaeae;
+  background-color: white;
   color: #333;
 }
 
@@ -49,10 +49,26 @@ body {
   background-color: #fff;
   padding: 10px;
   border-radius: 10px;
-  height: 570px;
+  height: 420px;
   margin: 10px;
-  width: 610px;
+  width: 350px;
+  border: 2px solid;
+  border-color: rgb(122, 122, 122);
 }
+
+.gruns:hover {
+  border-radius: 10px;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
+}
+
 .gruns img,
 .expedia img {
   width: 100%;
@@ -63,9 +79,10 @@ body {
 
 .description {
   margin-left: 10px;
-  font-size: 1.2rem;
+  font-size: 15px;
   line-height: 1.5;
-  width: 600px;
+  width: 340px;
+  padding: 2px;
 }
 
 .grunsbtn,
@@ -110,10 +127,12 @@ body {
 
 .shop {
   display: grid;
-  grid-template-columns: auto auto auto;
-  margin-left: 10px;
+  grid-template-columns: auto auto auto auto auto;
+  margin-left: 5px;
 }
 
-.tablet {
-  height: 340px;
+.price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
 }
